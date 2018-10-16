@@ -14,7 +14,7 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 var day = weekday[dt.getDay()];
 
-let welcomeOutput = "Hey! Welcome  to your daily exercise routine <break time='0.3s'/> Let's start with your workout plan <break time='0.3s'/> Today is "+day;
+let welcomeOutput = "Hey! Welcome  to your daily exercise SCHEDULE <break time='0.3s'/> Let's start with your workout plan <break time='0.3s'/> Today is "+day;
 welcomeOutput += "<break time='0.3s'/> Please inform me about your fitness goals <break time='0.3s'/> We have <break time='0.4s'/>  Fat loss <break time='0.3s'/> Muscle Gain <break time='0.2s'/> and <break time='0.3s'/> Cross Fit";
 let welcomeReprompt = "sample re-prompt text";
 "use strict";
