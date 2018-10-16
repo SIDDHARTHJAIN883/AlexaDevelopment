@@ -1,0 +1,124 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "home fitness",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetExerciseIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell my exercises",
+                        "my fitness program",
+                        "workout plan",
+                        "how shall i start my workout",
+                        "what should i do today",
+                        "tell me something about my workout plan",
+                        "what about my workout plan",
+                        "give me workout plan",
+                        "i need my workout plan",
+                        "what is my workout plan",
+                        "start my workout plan",
+                        "start my workout",
+                        "what's my workout schedule for today",
+                        "what's my workout for today",
+                        "begin my workout",
+                        "let's start",
+                        "begin workout",
+                        "begin ",
+                        "i am ready",
+                        "start exercise",
+                        "start"
+                    ]
+                },
+                {
+                    "name": "NextIntent",
+                    "slots": [],
+                    "samples": [
+                        "say my next exercise",
+                        "done with my exercise",
+                        "completed",
+                        "completed my exercise",
+                        "tell me my next exercise",
+                        "what's my next exercise",
+                        "done",
+                        "my next exercise ",
+                        "next"
+                    ]
+                },
+                {
+                    "name": "RestartIntent",
+                    "slots": [],
+                    "samples": [
+                        "yes i want to restart my workout",
+                        "restart my workout",
+                        "once more",
+                        "yeah",
+                        "yes i want to restart my schedule",
+                        "yes",
+                        "Again"
+                    ]
+                },
+                {
+                    "name": "WorkoutPlanIntent",
+                    "slots": [
+                        {
+                            "name": "type",
+                            "type": "type"
+                        }
+                    ],
+                    "samples": [
+                        "choose {type}",
+                        "i will select {type}",
+                        "select {type}",
+                        "i will go with {type}",
+                        "{type} maybe",
+                        "{type}",
+                        "i want {type}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "type",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "fat loss"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "muscle gain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cross fit"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
