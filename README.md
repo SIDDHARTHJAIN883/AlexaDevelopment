@@ -1,1 +1,1 @@
-Alexa home fitness skill 
+Alexa skills repo 
